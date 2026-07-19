@@ -1,0 +1,15 @@
+# Sensitive encryption key – never commit this
+data/secret.key
+
+# Encrypted patient log – kept off version control
+data/logs.enc
+
+# ChromaDB local vector store
+chroma_db/
+
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/

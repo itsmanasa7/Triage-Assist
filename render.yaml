@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: sahayak-ai-backend
+    runtime: python
+    region: singapore
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: ALLOWED_ORIGINS
+        value: "https://your-frontend.vercel.app"
+    disk:
+      name: sahayak-data
+      mountPath: /opt/render/project/src/backend
+      sizeGB: 1

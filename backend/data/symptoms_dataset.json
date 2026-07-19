@@ -1,0 +1,845 @@
+[
+  {
+    "id": "1",
+    "symptoms": [
+      "high fever",
+      "chills",
+      "headache",
+      "sweating"
+    ],
+    "condition": "Malaria",
+    "triage_level": "emergency",
+    "recommended_action": "Refer to nearest health centre for rapid diagnostic test and start antimalarial treatment immediately.",
+    "red_flags": [
+      "confusion",
+      "seizures",
+      "severe anemia"
+    ]
+  },
+  {
+    "id": "2",
+    "symptoms": [
+      "watery diarrhea",
+      "dehydration",
+      "stomach cramps",
+      "nausea"
+    ],
+    "condition": "Acute Gastroenteritis",
+    "triage_level": "urgent",
+    "recommended_action": "Oral rehydration salts and monitor. Seek care if vomiting persists more than 24 hours.",
+    "red_flags": [
+      "blood in stool",
+      "high fever",
+      "signs of shock"
+    ]
+  },
+  {
+    "id": "3",
+    "symptoms": [
+      "snake bite",
+      "localized swelling",
+      "severe pain",
+      "fang marks"
+    ],
+    "condition": "Snake Envenomation",
+    "triage_level": "emergency",
+    "recommended_action": "Immobilize limb, keep victim calm, do NOT apply tourniquet. Transport urgently to health centre for antivenom.",
+    "red_flags": [
+      "difficulty breathing",
+      "blurred vision",
+      "ptosis",
+      "paralysis"
+    ]
+  },
+  {
+    "id": "4",
+    "symptoms": [
+      "vomiting blood",
+      "abdominal pain",
+      "black tarry stools"
+    ],
+    "condition": "Upper Gastrointestinal Bleed",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate referral to hospital for endoscopic evaluation. Start IV access en route.",
+    "red_flags": [
+      "hypotension",
+      "tachycardia",
+      "pallor"
+    ]
+  },
+  {
+    "id": "5",
+    "symptoms": [
+      "persistent cough",
+      "shortness of breath",
+      "fever",
+      "chest pain"
+    ],
+    "condition": "Pneumonia",
+    "triage_level": "urgent",
+    "recommended_action": "Start antibiotics and arrange transport to health centre for chest X-ray and oxygen.",
+    "red_flags": [
+      "cyanosis",
+      "oxygen saturation below 90%",
+      "altered consciousness"
+    ]
+  },
+  {
+    "id": "6",
+    "symptoms": [
+      "severe headache",
+      "visual disturbance",
+      "very high blood pressure",
+      "nose bleed"
+    ],
+    "condition": "Hypertensive Crisis",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate referral for blood pressure control. Do not give water or food. Lay patient flat.",
+    "red_flags": [
+      "altered mental status",
+      "seizure",
+      "focal neurological deficit"
+    ]
+  },
+  {
+    "id": "7",
+    "symptoms": [
+      "extreme weight loss",
+      "fatigue",
+      "bilateral leg edema",
+      "pot belly in child"
+    ],
+    "condition": "Severe Acute Malnutrition",
+    "triage_level": "urgent",
+    "recommended_action": "Nutritional rehabilitation program, RUTF feeding, and urgent medical evaluation for complications.",
+    "red_flags": [
+      "edema of face",
+      "reduced consciousness",
+      "diarrhea"
+    ]
+  },
+  {
+    "id": "8",
+    "symptoms": [
+      "vaginal bleeding in pregnancy",
+      "severe abdominal pain",
+      "board-like abdomen",
+      "reduced fetal movement"
+    ],
+    "condition": "Placental Abruption",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate transport to obstetric facility. Do not do vaginal examination. Start IV fluids.",
+    "red_flags": [
+      "shock",
+      "absent fetal heartbeat",
+      "severe pain"
+    ]
+  },
+  {
+    "id": "9",
+    "symptoms": [
+      "burn wound",
+      "blistering skin",
+      "pain at burn site"
+    ],
+    "condition": "Second-degree Burn",
+    "triage_level": "urgent",
+    "recommended_action": "Cool burn with clean water for 20 min, keep clean, cover with sterile dressing, refer for wound care.",
+    "red_flags": [
+      "burn on face or genitals",
+      "large surface area above 10%",
+      "signs of infection"
+    ]
+  },
+  {
+    "id": "10",
+    "symptoms": [
+      "fever",
+      "severe joint pain",
+      "rash on palms and soles",
+      "retro-orbital headache"
+    ],
+    "condition": "Dengue Fever",
+    "triage_level": "urgent",
+    "recommended_action": "Hydration, monitor platelets and hematocrit, refer immediately if warning signs appear.",
+    "red_flags": [
+      "abdominal pain",
+      "persistent vomiting",
+      "bleeding gums",
+      "rapid breathing"
+    ]
+  },
+  {
+    "id": "11",
+    "symptoms": [
+      "persistent cough more than 2 weeks",
+      "night sweats",
+      "blood in sputum",
+      "unexplained weight loss"
+    ],
+    "condition": "Pulmonary Tuberculosis",
+    "triage_level": "urgent",
+    "recommended_action": "Collect sputum for microscopy, start anti-TB regimen, notify health authorities.",
+    "red_flags": [
+      "massive hemoptysis",
+      "respiratory failure"
+    ]
+  },
+  {
+    "id": "12",
+    "symptoms": [
+      "twisted ankle",
+      "swelling",
+      "pain on movement",
+      "unable to bear weight"
+    ],
+    "condition": "Ankle Sprain",
+    "triage_level": "routine",
+    "recommended_action": "RICE protocol - rest, ice, compression, elevation. X-ray if fracture suspected. Physiotherapy referral.",
+    "red_flags": []
+  },
+  {
+    "id": "13",
+    "symptoms": [
+      "sore throat",
+      "fever",
+      "difficulty swallowing",
+      "white patches on tonsils"
+    ],
+    "condition": "Streptococcal Pharyngitis",
+    "triage_level": "routine",
+    "recommended_action": "Oral penicillin or amoxicillin for 10 days. Paracetamol for fever. Hydration.",
+    "red_flags": [
+      "drooling",
+      "difficulty breathing",
+      "muffled voice"
+    ]
+  },
+  {
+    "id": "14",
+    "symptoms": [
+      "severe abdominal pain",
+      "vomiting",
+      "no bowel movements",
+      "abdominal distension"
+    ],
+    "condition": "Intestinal Obstruction",
+    "triage_level": "emergency",
+    "recommended_action": "Nothing by mouth, nasogastric tube, IV fluids, urgent surgical referral.",
+    "red_flags": [
+      "rigid abdomen",
+      "absent bowel sounds",
+      "shock"
+    ]
+  },
+  {
+    "id": "15",
+    "symptoms": [
+      "skin itching",
+      "hives all over body",
+      "swelling of lips and tongue"
+    ],
+    "condition": "Severe Allergic Reaction / Anaphylaxis",
+    "triage_level": "emergency",
+    "recommended_action": "Epinephrine injection 0.5mg IM immediately. Antihistamines. Oxygen. Urgent referral.",
+    "red_flags": [
+      "difficulty breathing",
+      "stridor",
+      "hypotension",
+      "loss of consciousness"
+    ]
+  },
+  {
+    "id": "16",
+    "symptoms": [
+      "sudden very severe headache",
+      "neck stiffness",
+      "photophobia",
+      "fever"
+    ],
+    "condition": "Bacterial Meningitis",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate IV antibiotics before referral. Lumbar puncture only in hospital. Isolate patient.",
+    "red_flags": [
+      "petechial rash",
+      "altered consciousness",
+      "seizure",
+      "papilledema"
+    ]
+  },
+  {
+    "id": "17",
+    "symptoms": [
+      "fever",
+      "migratory joint swelling and pain",
+      "heart murmur",
+      "rash on trunk"
+    ],
+    "condition": "Acute Rheumatic Fever",
+    "triage_level": "urgent",
+    "recommended_action": "Refer for cardiac evaluation. Penicillin to eradicate strep. Long-term prophylaxis.",
+    "red_flags": [
+      "heart failure symptoms",
+      "severe carditis"
+    ]
+  },
+  {
+    "id": "18",
+    "symptoms": [
+      "severe ear pain",
+      "ear discharge",
+      "fever in child",
+      "hearing loss"
+    ],
+    "condition": "Acute Otitis Media with Perforation",
+    "triage_level": "routine",
+    "recommended_action": "Analgesics for pain control. Antibiotics if systemic symptoms. ENT referral for persistent cases.",
+    "red_flags": [
+      "mastoid swelling",
+      "facial palsy",
+      "vertigo"
+    ]
+  },
+  {
+    "id": "19",
+    "symptoms": [
+      "progressive difficulty breathing",
+      "barrel chest",
+      "chronic cough with mucus",
+      "smoking history"
+    ],
+    "condition": "COPD Exacerbation",
+    "triage_level": "urgent",
+    "recommended_action": "Bronchodilators, controlled oxygen therapy, corticosteroids, antibiotics if infection suspected.",
+    "red_flags": [
+      "cyanosis",
+      "confusion",
+      "respiratory rate above 30"
+    ]
+  },
+  {
+    "id": "20",
+    "symptoms": [
+      "painful urination",
+      "urinary frequency",
+      "lower abdominal pain"
+    ],
+    "condition": "Urinary Tract Infection",
+    "triage_level": "routine",
+    "recommended_action": "Urine dipstick test. Trimethoprim or nitrofurantoin for 5-7 days. Increase fluid intake.",
+    "red_flags": [
+      "fever above 38.5",
+      "loin pain",
+      "vomiting"
+    ]
+  },
+  {
+    "id": "21",
+    "symptoms": [
+      "fever",
+      "swollen lymph nodes in neck",
+      "sore throat",
+      "extreme fatigue"
+    ],
+    "condition": "Infectious Mononucleosis",
+    "triage_level": "routine",
+    "recommended_action": "Rest, hydration, paracetamol. Avoid contact sports for 6 weeks due to spleen rupture risk.",
+    "red_flags": [
+      "severe abdominal pain",
+      "jaundice",
+      "difficulty swallowing"
+    ]
+  },
+  {
+    "id": "22",
+    "symptoms": [
+      "sudden breathlessness",
+      "frothy pink sputum",
+      "cannot lie flat",
+      "legs swollen"
+    ],
+    "condition": "Acute Pulmonary Edema",
+    "triage_level": "emergency",
+    "recommended_action": "Sit patient upright, oxygen, furosemide IV, urgent referral to hospital.",
+    "red_flags": [
+      "cyanosis",
+      "oxygen saturation below 85%",
+      "loss of consciousness"
+    ]
+  },
+  {
+    "id": "23",
+    "symptoms": [
+      "severe headache",
+      "confusion",
+      "blurred vision",
+      "vomiting"
+    ],
+    "condition": "Hypertensive Encephalopathy",
+    "triage_level": "emergency",
+    "recommended_action": "Urgent BP control, IV labetalol or hydralazine, immediate hospitalisation.",
+    "red_flags": [
+      "seizure",
+      "focal neurology",
+      "papilledema"
+    ]
+  },
+  {
+    "id": "24",
+    "symptoms": [
+      "itchy vesicular rash starting on trunk",
+      "mild fever",
+      "malaise"
+    ],
+    "condition": "Chickenpox",
+    "triage_level": "routine",
+    "recommended_action": "Calamine lotion, antihistamines, keep nails short. Aciclovir only for severe cases or immunocompromised.",
+    "red_flags": [
+      "secondary bacterial infection",
+      "pneumonia in adults",
+      "encephalitis"
+    ]
+  },
+  {
+    "id": "25",
+    "symptoms": [
+      "painful swelling in groin",
+      "fever",
+      "redness and warmth over lump"
+    ],
+    "condition": "Inguinal Abscess",
+    "triage_level": "urgent",
+    "recommended_action": "Incision and drainage under local anaesthesia. Systemic antibiotics. Wound care.",
+    "red_flags": [
+      "spreading redness",
+      "fever not settling",
+      "systemic sepsis signs"
+    ]
+  },
+  {
+    "id": "26",
+    "symptoms": [
+      "persistent vomiting unable to keep fluids",
+      "sunken eyes",
+      "dry mouth",
+      "no urine for 8 hours"
+    ],
+    "condition": "Severe Dehydration",
+    "triage_level": "emergency",
+    "recommended_action": "IV Ringer lactate fluid resuscitation. Monitor urine output. Treat underlying cause.",
+    "red_flags": [
+      "altered mental status",
+      "shock",
+      "seizures in child"
+    ]
+  },
+  {
+    "id": "27",
+    "symptoms": [
+      "fever",
+      "headache",
+      "neck stiffness but less severe"
+    ],
+    "condition": "Viral Meningitis",
+    "triage_level": "urgent",
+    "recommended_action": "Supportive care, analgesia, hydration. Monitor closely for bacterial superinfection. Hospital observation.",
+    "red_flags": [
+      "petechiae",
+      "worsening consciousness",
+      "seizure"
+    ]
+  },
+  {
+    "id": "28",
+    "symptoms": [
+      "loin pain",
+      "fever and rigors",
+      "painful urination",
+      "vomiting"
+    ],
+    "condition": "Pyelonephritis",
+    "triage_level": "urgent",
+    "recommended_action": "IV or oral antibiotics depending on severity. Urine culture. Imaging if recurrent.",
+    "red_flags": [
+      "septic shock signs",
+      "pregnancy",
+      "suspected abscess"
+    ]
+  },
+  {
+    "id": "29",
+    "symptoms": [
+      "headache",
+      "dizziness",
+      "pallor",
+      "easy fatigue on exertion"
+    ],
+    "condition": "Iron Deficiency Anemia",
+    "triage_level": "routine",
+    "recommended_action": "Full blood count, hemoglobin test. Oral iron supplementation for 3 months. Dietary advice.",
+    "red_flags": [
+      "hemoglobin below 7",
+      "cardiac symptoms",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "30",
+    "symptoms": [
+      "non-healing ulcer on foot",
+      "swelling",
+      "pus discharge",
+      "fever in diabetic patient"
+    ],
+    "condition": "Diabetic Foot Infection",
+    "triage_level": "urgent",
+    "recommended_action": "Wound debridement and care, systemic antibiotics, strict glycaemic control. Surgical referral if deep.",
+    "red_flags": [
+      "bone exposed",
+      "spreading cellulitis",
+      "sepsis",
+      "gas in wound on X-ray"
+    ]
+  },
+  {
+    "id": "31",
+    "symptoms": [
+      "fast breathing in infant",
+      "wheeze",
+      "fever",
+      "poor feeding"
+    ],
+    "condition": "Bronchiolitis",
+    "triage_level": "urgent",
+    "recommended_action": "Supportive care, adequate hydration, nasal suctioning. Monitor oxygen saturation. Hospital if severe.",
+    "red_flags": [
+      "apnea",
+      "oxygen below 92%",
+      "severe chest recession",
+      "unable to feed"
+    ]
+  },
+  {
+    "id": "32",
+    "symptoms": [
+      "sudden severe chest pain",
+      "sweating",
+      "pain radiating to left arm",
+      "nausea"
+    ],
+    "condition": "Acute Myocardial Infarction",
+    "triage_level": "emergency",
+    "recommended_action": "Aspirin 300mg chewed immediately. Sublingual GTN if available. Urgent transport. Do not delay.",
+    "red_flags": [
+      "loss of consciousness",
+      "cardiac arrest",
+      "cardiogenic shock"
+    ]
+  },
+  {
+    "id": "33",
+    "symptoms": [
+      "sudden facial droop on one side",
+      "arm weakness",
+      "slurred speech",
+      "confusion"
+    ],
+    "condition": "Acute Stroke",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate transport to stroke-capable centre. Time is brain. Note exact time of onset.",
+    "red_flags": [
+      "altered consciousness",
+      "inability to swallow",
+      "seizure post-stroke"
+    ]
+  },
+  {
+    "id": "34",
+    "symptoms": [
+      "fever",
+      "jaundice",
+      "muscle pain",
+      "red eyes",
+      "recent flood exposure"
+    ],
+    "condition": "Leptospirosis",
+    "triage_level": "urgent",
+    "recommended_action": "Oral doxycycline or IV penicillin. Supportive care. Report to public health authorities.",
+    "red_flags": [
+      "acute kidney injury",
+      "pulmonary hemorrhage",
+      "meningitis"
+    ]
+  },
+  {
+    "id": "35",
+    "symptoms": [
+      "severe unilateral headache",
+      "nausea",
+      "vomiting",
+      "sensitivity to light and sound"
+    ],
+    "condition": "Migraine",
+    "triage_level": "routine",
+    "recommended_action": "Sumatriptan or paracetamol plus metoclopramide. Rest in dark quiet room. Identify triggers.",
+    "red_flags": [
+      "thunderclap onset",
+      "fever with headache",
+      "first ever severe headache",
+      "focal neurology"
+    ]
+  },
+  {
+    "id": "36",
+    "symptoms": [
+      "fever",
+      "symmetrical joint pain and swelling",
+      "recent mosquito bite area travel"
+    ],
+    "condition": "Chikungunya",
+    "triage_level": "routine",
+    "recommended_action": "Rest, paracetamol, NSAIDs for joint pain. Monitoring for complications. Mosquito net.",
+    "red_flags": [
+      "neurological symptoms",
+      "myocarditis",
+      "severe joint deformity"
+    ]
+  },
+  {
+    "id": "37",
+    "symptoms": [
+      "bloody diarrhea",
+      "abdominal cramps",
+      "tenesmus",
+      "mucus in stool"
+    ],
+    "condition": "Amoebic Dysentery",
+    "triage_level": "urgent",
+    "recommended_action": "Metronidazole 400mg TDS for 5-10 days. Stool microscopy. Oral rehydration.",
+    "red_flags": [
+      "perforation signs",
+      "liver abscess",
+      "systemic sepsis"
+    ]
+  },
+  {
+    "id": "38",
+    "symptoms": [
+      "hot swollen knee joint",
+      "fever",
+      "unable to bend knee",
+      "severe pain on movement"
+    ],
+    "condition": "Septic Arthritis of Knee",
+    "triage_level": "urgent",
+    "recommended_action": "Joint aspiration for diagnosis. IV antibiotics urgently. Surgical drainage if needed. Do not delay.",
+    "red_flags": [
+      "systemic sepsis",
+      "rapid joint destruction"
+    ]
+  },
+  {
+    "id": "39",
+    "symptoms": [
+      "chronic cough",
+      "profuse night sweats",
+      "rapid weight loss",
+      "oral thrush"
+    ],
+    "condition": "HIV with Opportunistic Infection",
+    "triage_level": "urgent",
+    "recommended_action": "HIV testing and CD4 count. Start ART and OI prophylaxis. TB screening mandatory.",
+    "red_flags": [
+      "Pneumocystis pneumonia",
+      "cryptococcal meningitis",
+      "very low CD4"
+    ]
+  },
+  {
+    "id": "40",
+    "symptoms": [
+      "fever",
+      "generalised maculopapular rash",
+      "red eyes",
+      "cough and runny nose in child"
+    ],
+    "condition": "Measles",
+    "triage_level": "routine",
+    "recommended_action": "Vitamin A supplementation, supportive care. Report to surveillance. Isolate from other children.",
+    "red_flags": [
+      "encephalitis",
+      "pneumonia",
+      "stridor",
+      "severe malnutrition with measles"
+    ]
+  },
+  {
+    "id": "41",
+    "symptoms": [
+      "headache",
+      "fever",
+      "altered consciousness",
+      "seizures"
+    ],
+    "condition": "Viral Encephalitis",
+    "triage_level": "emergency",
+    "recommended_action": "Urgent hospitalisation, IV aciclovir empirically, seizure management, supportive care.",
+    "red_flags": [
+      "coma",
+      "status epilepticus",
+      "herniation signs"
+    ]
+  },
+  {
+    "id": "42",
+    "symptoms": [
+      "painless swollen lymph nodes in neck",
+      "fever",
+      "drenching night sweats",
+      "weight loss"
+    ],
+    "condition": "Tuberculous Lymphadenitis",
+    "triage_level": "urgent",
+    "recommended_action": "Fine needle aspiration biopsy. Start anti-TB therapy. Screen for disseminated TB.",
+    "red_flags": [
+      "large mediastinal mass",
+      "systemic TB symptoms"
+    ]
+  },
+  {
+    "id": "43",
+    "symptoms": [
+      "extreme thirst",
+      "frequent urination",
+      "sudden weight loss",
+      "fruity breath smell"
+    ],
+    "condition": "Diabetic Ketoacidosis",
+    "triage_level": "emergency",
+    "recommended_action": "IV fluids urgently, insulin infusion, electrolyte replacement, ICU monitoring. Call for help.",
+    "red_flags": [
+      "altered consciousness",
+      "Kussmaul breathing",
+      "potassium below 3"
+    ]
+  },
+  {
+    "id": "44",
+    "symptoms": [
+      "red warm swollen skin spreading from wound",
+      "fever",
+      "pain out of proportion"
+    ],
+    "condition": "Cellulitis or Necrotising Fasciitis",
+    "triage_level": "urgent",
+    "recommended_action": "IV antibiotics urgently. Mark border of redness and monitor. Surgical review if rapid spread.",
+    "red_flags": [
+      "crepitus in tissue",
+      "skin necrosis",
+      "fever not responding",
+      "septic shock"
+    ]
+  },
+  {
+    "id": "45",
+    "symptoms": [
+      "burning urination",
+      "frequent urination",
+      "fever in pregnant woman",
+      "loin pain"
+    ],
+    "condition": "Urinary Tract Infection in Pregnancy",
+    "triage_level": "urgent",
+    "recommended_action": "Urine culture. Cephalexin or nitrofurantoin safe in pregnancy. Monitor for preterm labour.",
+    "red_flags": [
+      "preterm contractions",
+      "systemic sepsis",
+      "pyelonephritis"
+    ]
+  },
+  {
+    "id": "46",
+    "symptoms": [
+      "sudden loss of vision in one eye",
+      "severe eye pain",
+      "halos around lights",
+      "nausea"
+    ],
+    "condition": "Acute Angle-closure Glaucoma",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate ophthalmology referral. IV acetazolamide. Do not give anything that dilates pupil.",
+    "red_flags": [
+      "complete vision loss",
+      "rock-hard eyeball"
+    ]
+  },
+  {
+    "id": "47",
+    "symptoms": [
+      "cough more than 3 weeks",
+      "evening fever",
+      "weight loss",
+      "blood in sputum"
+    ],
+    "condition": "Pulmonary TB",
+    "triage_level": "urgent",
+    "recommended_action": "Sputum AFB smear x3. Chest X-ray. Start 4-drug TB regimen if confirmed. Notify contacts.",
+    "red_flags": [
+      "massive hemoptysis",
+      "respiratory failure",
+      "MDR-TB suspected"
+    ]
+  },
+  {
+    "id": "48",
+    "symptoms": [
+      "vaginal bleeding in early pregnancy",
+      "lower abdominal cramps",
+      "closed cervix on exam"
+    ],
+    "condition": "Threatened Miscarriage",
+    "triage_level": "urgent",
+    "recommended_action": "Bed rest, pelvic ultrasound to confirm fetal heartbeat, progesterone supplementation if indicated.",
+    "red_flags": [
+      "heavy soaking bleeding",
+      "shock",
+      "severe pain",
+      "products of conception visible"
+    ]
+  },
+  {
+    "id": "49",
+    "symptoms": [
+      "leg pain at rest",
+      "cold foot",
+      "pale or bluish toes",
+      "non-healing ulcer on toe"
+    ],
+    "condition": "Critical Limb Ischaemia",
+    "triage_level": "urgent",
+    "recommended_action": "Urgent vascular surgery referral. Anticoagulation. Do not elevate limb. Pain management.",
+    "red_flags": [
+      "absent pulses",
+      "gangrene",
+      "paralysis of foot"
+    ]
+  },
+  {
+    "id": "50",
+    "symptoms": [
+      "high fever",
+      "rapid breathing",
+      "confusion",
+      "low blood pressure",
+      "cold clammy skin"
+    ],
+    "condition": "Septic Shock",
+    "triage_level": "emergency",
+    "recommended_action": "Immediate IV broad-spectrum antibiotics. Fluid resuscitation 30ml/kg. ICU referral. Blood cultures.",
+    "red_flags": [
+      "organ failure",
+      "lactate above 4",
+      "unresponsive to fluids"
+    ]
+  }
+]
