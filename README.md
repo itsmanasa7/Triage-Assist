@@ -1,4 +1,4 @@
-# Triage Assist
+# Sahayak AI
 
 > **AI-powered triage assistant for rural health workers**
 > Built for the **Idea2Impact Hackathon 2026** | Theme 3: Crisis Management & HealthTech
