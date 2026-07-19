@@ -59,7 +59,7 @@ export default function HowItWorks() {
       </button>
 
       {open && (
-        <div className="hiw-content" role="region" aria-label="How Sahayak AI works">
+        <div className="hiw-content" role="region" aria-label="How Triage Assist works">
           {HOW_IT_WORKS.map(item => (
             <div key={item.icon} className="hiw-item">
               <div className="hiw-icon">{ICON_MAP[item.icon]}</div>

@@ -1,4 +1,4 @@
-# Sahayak AI
+# Triage Assist
 
 > **AI-powered triage assistant for rural health workers**
 > Built for the **Idea2Impact Hackathon 2026** | Theme 3: Crisis Management & HealthTech
@@ -9,7 +9,7 @@
 
 Rural health workers in India often face critical clinical decisions without specialist support. A community health worker attending a patient with "high fever and difficulty breathing" needs to know — *now* — whether this is routine or life-threatening.
 
-**Sahayak AI** accepts a free-text symptom description, retrieves the most semantically relevant case from a curated knowledge base, and returns a colour-coded triage recommendation in seconds — all encrypted at rest, with no personal data stored.
+**Triage Assist** accepts a free-text symptom description, retrieves the most semantically relevant case from a curated knowledge base, and returns a colour-coded triage recommendation in seconds — all encrypted at rest, with no personal data stored.
 
 ---
 
@@ -68,7 +68,7 @@ Health Worker (Phone Browser)
 ## Project Structure
 
 ```
-sahayak-ai/
+triage-assist/
 ├── backend/
 │   ├── data/
 │   │   └── symptoms_dataset.json    # 50 curated rural-health scenarios

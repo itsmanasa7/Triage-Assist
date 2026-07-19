@@ -13,7 +13,7 @@ from pydantic import BaseModel, field_validator
 from triage_engine import get_triage
 from privacy import encrypt_log
 
-app = FastAPI(title="Sahayak AI", version="1.0.0")
+app = FastAPI(title="Triage Assist", version="1.0.0")
 
 _raw_origins = os.getenv("ALLOWED_ORIGINS", "*")
 _origins = [o.strip() for o in _raw_origins.split(",")] if _raw_origins != "*" else ["*"]

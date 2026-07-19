@@ -77,7 +77,7 @@ export default function TriagePage() {
             <path d="M19 12H5M12 19l-7-7 7-7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-        <span className="triage-header-title">SAHAYAK<span className="accent-dot">.</span>AI</span>
+        <span className="triage-header-title">TRIAGE<span className="accent-dot">-</span>ASSIST</span>
         <div style={{ width: 32 }} />
       </header>
 

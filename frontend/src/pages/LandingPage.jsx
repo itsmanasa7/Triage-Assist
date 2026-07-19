@@ -17,7 +17,7 @@ export default function LandingPage() {
         </div>
 
         <h1 className="landing-title">
-          SAHAYAK<span className="accent-dot">.</span>AI
+          TRIAGE<span className="accent-dot">-</span>ASSIST
         </h1>
 
         <p className="landing-tagline">
